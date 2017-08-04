@@ -1,0 +1,77 @@
+After the nukes fell civilization collapsed. All modern technology collapsed only older tech still works. It can no longer be produced, so it is considered a treasure. 
+It is your job to survive.
+
+
+
+
+
+
+
+
+
+
+START
+
+
+air raid siren 
+
+
+
+
+
+Press Start to Begin
+
+
+
+
+
+
+
+shotgun -p $PORT -o $IP
+
+
+
+Hey all. Here’s what you do if you get an error that says your server is already running:
+
+
+[11:43] 
+Type this command: `ps aux | grep "ruby"`
+
+
+[11:43] 
+you’ll get something like
+```Admin            70521   0.0  0.0  2423392    624 s001  R+   11:42AM   0:00.00 grep ruby
+Admin            70365   0.0  0.6  2505600  48736 s000  S+   11:40AM   0:00.79 ruby /Users/Admin/.rvm/gems/ruby-2.1.0/bin/rackup
+```
+
+
+[11:43] 
+Copy the first number on the line that has ruby-…/bin/rackup. in this case it’s 70365.
+
+
+[11:44] 
+Then run `kill -9 <your number>`, so I’d run `kill -9 70365`
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <title>START</title>
+                <link rel="stylesheet" href="css/style.css">
+                <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        
+        </head>
+        <body style="background-color:black;">
+        
+       
+        
+         
+        
+        </body>
+        
+</html>
